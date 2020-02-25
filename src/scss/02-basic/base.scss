@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  max-width: 1120px;
+  height: 100vh;
+  min-height: 700px;
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  color: $body-color;
+  position: relative;
+}
+
+a {
+  transition: all 0.2s ease;
+
+  &:link,
+  &:visited {
+    color: $body-color;
+  }
+
+  &:hover,
+  &:active {
+    color: rgba($body-color, 0.65);
+  }
+}

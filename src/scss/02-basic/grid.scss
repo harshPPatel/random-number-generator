@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .col {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 825px) {
+    flex-direction: column;
+
+    .col {
+      width: 100%;
+    }
+  }
+}

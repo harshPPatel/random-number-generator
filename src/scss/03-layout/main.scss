@@ -1,0 +1,25 @@
+main {
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  #random-number {
+    font-size: 140px;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: 825px) {
+    img {
+      width: auto;
+      max-height: 250px;
+    }
+
+    #random-number {
+      font-size: 120px;
+      margin-bottom: 50px;
+      margin-top: 40px;
+    }
+  }
+}
